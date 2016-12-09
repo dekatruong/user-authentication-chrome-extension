@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "User Authentication",
+  "version": "1.0",
+  "browser_action": {
+
+    "default_title": "User Authentication"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "identity"
+  ],
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwR/tKUYIutFnIsLcakDi4dDtHkEq5qjjNAvRRRk0MQOxD9Cw1Ulgy05QUGiFLF2/1WhN95tLWCz8FYMu54Z4I0csRaVz8DSYPD6HYICdRcJyeksXje880OZpcVau1cZG5xkdKmY9Epu/5iNkL9LmP94IJSaZQZJiRbc5gh0hkdZMGl4JdareFJsJ1me7dAq74WE4p+aAPdIbpIA2CuSfGwDI5MOxUn0vMphro5w36rEyFzr6gwnbHB80cHgXEosu2OrC+5sZm1fkrg9nCu5L+jb5Q1dQ4MvYJGZ1EYEPwdTjZ8SQoULxD5VmTSLkdiiAeLPAdVMcI2U6BDFCPns2uwIDAQAB",
+  "oauth2": {
+    "client_id": "818086785146-v3es1npj7i19h61q4fh7566hutr8mgqi.apps.googleusercontent.com",
+    "scopes": [
+      "openid",
+      "profile",
+      "email"
+    ]
+  }
+
+}
